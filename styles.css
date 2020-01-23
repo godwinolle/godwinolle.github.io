@@ -79,6 +79,7 @@ div .image-me{
     color: #000;
 }
 .skillset{
+    columns: 2;
     margin-top: 10px;
     list-style: circle;
     font-family: 'Montserrat', sans-serif;
@@ -92,7 +93,6 @@ div .image-me{
 .mobileMenu{
     width: 100%;
     background-color: rgb(48, 39, 39);
-    padding: 60px;
     display: none;
 }
 .togglerr{
@@ -107,7 +107,52 @@ div .image-me{
 
 .mobileMenu li{
     list-style: none;
+    padding: 15px;
+    text-align: center;
 }
+.instagramTag{
+    margin-top: 55px;
+    display: flex;
+}
+
+.instagram{
+    width: 200px;
+    margin-right: 9px;
+}
+
+.igLink{
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 90px;
+    font-family: 'Lilita One', cursive;
+}
+.seeMore{
+    margin: 30px;
+    cursor: pointer;
+}
+
+.seeMore:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer{
+    background-color: rgb(48, 39, 39);
+    color: #fff;
+    font-family: 'Lilita One', cursive;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
 
 @media only screen and (max-width: 768px){
     header nav {
@@ -131,5 +176,11 @@ div .image-me{
 
     .about-me{
         font-size: 12px;
+    }
+    .skills p{
+        font-size: 12px;
+    }
+    .skillset{
+        font-size: 13px;
     }
 }
