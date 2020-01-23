@@ -67,6 +67,17 @@ div .image-me{
     padding-left: 30px;
 }
 
+.skills p{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.skills p a{
+    text-decoration: underline;
+    font-weight: 500;
+    color: #000;
+}
 .skillset{
     margin-top: 10px;
     list-style: circle;
@@ -76,6 +87,26 @@ div .image-me{
 
 .skillset li{
     padding-bottom: 3px;
+}
+
+.mobileMenu{
+    width: 100%;
+    background-color: rgb(48, 39, 39);
+    padding: 60px;
+    display: none;
+}
+.togglerr{
+    display: block;
+}
+
+.mobileMenu a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lilita One', cursive;
+}
+
+.mobileMenu li{
+    list-style: none;
 }
 
 @media only screen and (max-width: 768px){

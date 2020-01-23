@@ -1,23 +1,7 @@
-const text = ['a Student', 'a Learner', 'an aspiring Full-Stack Developer'];
-let count = 0;
-let index = 0;
-let currentText = '';
-let letter = '';
+const hamburger = document.querySelector('.hamburger');
+const mobileMenu = document.querySelector('.mobileMenu');
 
-(function type(){
-    if(count === text.length){
-        count = 0;
-    }
-    currentText = text[count];
-    letter = currentText.slice(0, ++index);
-
-    const about = document.querySelector('.intro');
-    about.textContent += letter;
-
-    if(letter.length === currentText.length){
-        count++;
-        index = 0;
-    }
-
-    setTimeout(type, 400);
-}());
+hamburger.addEventListener('click', () =>{
+    console.log("Hamburger clicked")
+    mobileMenu.classList.toggle('togglerr');
+});
