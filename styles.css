@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header div{
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+
+header nav {
+    background-color: rgb(48, 39, 39);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lilita One', cursive;
+}
+
+.navigation li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hamburger{
+    display: none;
+}
+
+.line{
+    border-color: #fff;
+    background-color: #fff;
+    margin-bottom: 3px;
+    width: 15px;
+    height: 2px;
+}
+
+.intro{
+    font-family: 'Lilita One', cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-me{
+    column-count: 2;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+div .image-me{
+    padding: 30px;
+}
+
+.image-me{
+    width: 200px;
+    height: auto;
+    border-radius: 30%; 
+}
+
+#skills-section{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 30px;
+}
+
+.skillset{
+    margin-top: 10px;
+    list-style: circle;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 30px;
+}
+
+.skillset li{
+    padding-bottom: 3px;
+}
+
+@media only screen and (max-width: 768px){
+    header nav {
+        padding: 5px;
+    }
+
+    .about-me{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .hamburger{
+        margin: 5px;
+        display: inline-block;
+    }
+
+    .navigation li{
+        display: none;
+    }
+
+    .about-me{
+        font-size: 12px;
+    }
+}
