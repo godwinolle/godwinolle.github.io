@@ -75,7 +75,7 @@ div .image-me{
 
 .skills p a{
     text-decoration: underline;
-    font-weight: 500;
+    font-weight: 700;
     color: #000;
 }
 .skillset{
@@ -149,6 +149,8 @@ footer{
     font-family: 'Lilita One', cursive;
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer li{
