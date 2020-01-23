@@ -94,6 +94,8 @@ div .image-me{
     width: 100%;
     background-color: rgb(48, 39, 39);
     display: none;
+    transition: ease-in;
+    transition-duration: 0.5s;
 }
 .togglerr{
     display: block;
@@ -117,6 +119,7 @@ div .image-me{
 
 .instagram{
     width: 200px;
+    height: 200px;
     margin-right: 9px;
 }
 
