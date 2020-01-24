@@ -28,6 +28,13 @@ header nav {
     color: #fff;
 }
 
+.navigation li a:hover{
+    color: #000;
+    background-color: #fff;
+    font-size: large;
+    border-radius: 10px;
+}
+
 .hamburger{
     display: none;
 }
@@ -69,8 +76,9 @@ div .image-me{
 
 .skills p{
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .skills p a{
@@ -83,7 +91,8 @@ div .image-me{
     margin-top: 10px;
     list-style: circle;
     font-family: 'Montserrat', sans-serif;
-    padding: 0 30px;
+    font-size: 11px;
+    padding: 0 50px;
 }
 
 .skillset li{
@@ -94,8 +103,6 @@ div .image-me{
     width: 100%;
     background-color: rgb(48, 39, 39);
     display: none;
-    transition: ease-in;
-    transition-duration: 0.5s;
 }
 .togglerr{
     display: block;
@@ -115,6 +122,7 @@ div .image-me{
 .instagramTag{
     margin-top: 55px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .instagram{
