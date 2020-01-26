@@ -59,8 +59,9 @@ header nav {
     padding: 0 10px;
     font-family: 'Montserrat', sans-serif;
 }
+
 div .image-me{
-    padding: 30px;
+    padding: 30px 80px;
 }
 
 .image-me{
@@ -195,5 +196,9 @@ footer{
     }
     .skillset{
         font-size: 13px;
+    }
+
+    div .image-me{
+        padding: 30px 80px;
     }
 }
