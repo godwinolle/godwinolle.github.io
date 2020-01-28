@@ -175,6 +175,7 @@ footer{
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 20px;
 }
 
 .footer li{
@@ -182,7 +183,13 @@ footer{
     padding-right: 20px;
 }
 
+.instagram-footer{
+    cursor: pointer;
+}
 
+.github-footer{
+    cursor: pointer;
+}
 @media only screen and (max-width: 768px){
     header nav {
         padding: 5px;
