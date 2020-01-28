@@ -74,12 +74,13 @@ header nav {
 .myImage{
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .image-me{
     width: 250px;
-    height: auto;
+    height: 300px;
     border-radius: 30%; 
 }
 
