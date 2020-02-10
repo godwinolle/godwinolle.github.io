@@ -24,22 +24,3 @@ const githubFooter = document.querySelector('.github-footer');
 githubFooter.addEventListener('click', ()=>{
     open('https://github.com/godwinolle', '_blank');
 });
-
-
-const text = ['a Student', 'a Learner', 'an aspiring Full-Stack Developer'];
-let count = 0;
-let index = 0;
-let currentText = '';
-let letter = '';
-
-function typeWriter(){
-    const about = document.querySelector('.text');
-    if(count < text.length){
-        about.innerHTML = text[index];
-        count++;
-        index++;
-        setTimeout(typeWriter, 2000);
-    }
-}
-
-typeWriter();
