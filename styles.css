@@ -244,6 +244,11 @@ footer{
         display: none;
     }
 
+    .attention-grab h1{
+        letter-spacing: 5px;
+        margin-top: 40px;
+        font-size: 50px;
+    }
     .about-me{
         font-size: 12px;
     }
