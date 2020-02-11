@@ -153,6 +153,20 @@ header nav {
 }
 
 
+.godwin-skills{
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #E4E0E0;
+    width: 100%;
+}
+
+.skill-progress{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
 /*display menu on mobile and its niceness*/
 .mobileMenu{
     width: 100%;
