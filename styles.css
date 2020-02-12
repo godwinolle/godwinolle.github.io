@@ -255,12 +255,20 @@ footer{
         flex-direction: column;
     }
 
+    .caption{
+        padding-left: 0;
+    }
+
+    .caption h3{
+        margin-top: 0px;
+    }
+
     .image{
         margin: 0 auto;
     }
 }
 
-@media only screen and (max-width: 500px){ 
+@media only screen and (max-width: 530px){ 
     .hamburger{
         margin: 5px;
         display: inline-block;
