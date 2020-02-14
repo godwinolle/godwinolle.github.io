@@ -270,7 +270,6 @@ header nav {
 }
 
 .about-me{
-    background-color: aqua;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
