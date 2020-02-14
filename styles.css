@@ -21,6 +21,8 @@ header div{
     color: #000;
 }
 
+/********************* This is the home page and all its visual goodness, its components are below **********************/
+
 /*godwin.codes spacing*/
 .name-Godwin {
     letter-spacing: 6px;
@@ -214,7 +216,7 @@ header nav {
 }
 
 /*the footer and its nice appearance*/
-footer{
+#footer{
     margin-top: 30px;
     width: 100%;
 }
@@ -242,7 +244,78 @@ footer{
 .github-footer{
     cursor: pointer;
 }
-@media only screen and (max-width: 768px){
+
+
+/********************* This is the ABOUT PAGE and all its visual goodness, its components are below **********************/
+.attention-grab-image{
+    background-image: url("./img/nasa.jpg");
+    width: 100%;
+    background-size: 100%;
+    height: 200px;
+    color: #3A3535;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 auto;
+}
+.attention-grab-image h2{
+    margin: 0 auto;
+    background-color: #fff;
+    opacity: 60%;
+    width: 400px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.about-me{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.niceSideInfo{
+    margin-left: 40px;
+    
+}
+.niceSideInfo img{
+    width: 300px;
+    border-radius: 5px;
+}
+.realInfo{
+    max-width: 600px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+/********************* This is the PROJECTS PAGE and all its visual goodness, its components are below **********************/
+.attention-grab-image-project{
+    background-image: url("./img/projects.jpg");
+    width: 100%;
+    background-size: 100%;
+    height: 200px;
+    color: #3A3535;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 auto;
+}
+.attention-grab-image-project h2{
+    margin: 0 auto;
+    background-color: #fff;
+    opacity: 60%;
+    width: 400px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 900px){
     header nav {
         padding: 5px;
     }
@@ -265,6 +338,16 @@ footer{
 
     .image{
         margin: 0 auto;
+    }
+
+    .about-me{
+        flex-direction: column;
+    }
+    .niceSideInfo{
+        margin: 0 auto; 
+    }
+    .niceSideInfo img{
+        width: 200px;
     }
 }
 
