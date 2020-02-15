@@ -313,6 +313,32 @@ header nav {
     text-align: center;
     font-size: 50px;
 }
+#converterTemp{
+    width: 100%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#converterTemp img{
+    margin-top: 5px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+#converterBMI{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Anton', sans-serif;
+}
+
+#converterBMI img{
+    width: 500px;
+    border-radius: 5px;
+}
 
 @media only screen and (max-width: 900px){
     header nav {
@@ -390,4 +416,19 @@ header nav {
         width: 250px;
 
     }
+
+    .attention-grab-image h2{
+        width: 200px;
+    }
+
+    #converterTemp img{
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    #converterBMI img{
+        width: 300px;
+        border-radius: 5px;
+    }
+
 }
