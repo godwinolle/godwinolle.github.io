@@ -5,6 +5,12 @@ hamburger.addEventListener('click', () =>{
     mobileMenu.classList.toggle('togglerr');
 });
 
+const nameHome = document.querySelector('.name-Godwin');
+nameHome.addEventListener('click', ()=>{
+    location.href = 'index.html';
+})
+
+
 let i=0;
 let text='Establishing Clean Code Since 1999';
 const typing = () =>{
