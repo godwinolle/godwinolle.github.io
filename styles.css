@@ -429,6 +429,10 @@ header nav {
         width: 200px;
     }
 
+    .attention-grab-image-project h2{
+        width: 250px;
+    }
+
     #converterTemp img{
         width: 300px;
         border-radius: 5px;
