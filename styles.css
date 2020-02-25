@@ -291,6 +291,10 @@ header nav {
     padding-left: 20px;
 }
 
+.realInfo span{
+    
+}
+
 /********************* This is the PROJECTS PAGE and all its visual goodness, its components are below **********************/
 .attention-grab-image-project{
     background-image: url("./img/projects.jpg");
