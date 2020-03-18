@@ -29,6 +29,16 @@ header div{
 }
 
 /*navigation*/
+.activity{
+    background-color: #3A3535;
+    color: #fff;
+}
+.activity div{
+    color: #F5F3F3;
+}
+.activity li a{
+    color: #F5F3F3;
+}
 header nav {
     padding: 20px;
     display: flex;
