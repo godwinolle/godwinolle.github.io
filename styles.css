@@ -32,6 +32,7 @@ header div{
 .activity{
     background-color: #3A3535;
     color: #fff;
+    opacity: 0.92;
 }
 .activity div{
     color: #F5F3F3;
